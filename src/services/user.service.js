@@ -1,6 +1,8 @@
 import sequelize, { DataTypes } from '../config/database';
+import logger from '../config/logger';
 const User = require('../models/user')(sequelize, DataTypes);
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken')
 
 //get all users
 export const getAllUsers = async () => {
@@ -16,6 +18,34 @@ export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
 };
+
+//login user
+export const loginUser = async (body) => {
+  let email = body.email;
+  logger.info("login email", email)
+  let data = await User.findAll({ where: { email: email } });
+  if (data.length !== 0) {
+    let passwordvalidator = await bcrypt.compare(body.password, data[0].password);
+    if (passwordvalidator) {
+      let token = jwt.sign({ email: data[0].email, firstName: data[0].firstName, id: data[0]._id }, process.env.SECRET_KEY);
+      return token;
+    } else {
+      throw new Error('Password Is incorrect.....');
+    }
+
+  } else {
+    throw new Error('Email Is incorrect.....');
+
+  }
+
+};
+
+
+
+
+
+
+
 
 //update single user
 export const updateUser = async (id, body) => {

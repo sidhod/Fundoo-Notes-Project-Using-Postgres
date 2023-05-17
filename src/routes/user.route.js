@@ -11,6 +11,15 @@ router.get('', userController.getAllUsers);
 //route to create a new user
 router.post('', newUserValidator, userController.newUser);
 
+//route to user login
+router.post('/logins', userController.loginUser);
+
+
+
+
+
+
+
 //route to get a single user by their user id
 router.get('/:id', userAuth, userController.getUser);
 
