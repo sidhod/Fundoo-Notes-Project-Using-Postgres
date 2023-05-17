@@ -229,3 +229,153 @@ error:
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:06:13.676Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T07:06:13.981Z"}
 info: login email {"timestamp":"2023-05-17T07:06:18.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:14:50.404Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:14:51.160Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:211:15)
+    at Function.put (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\routes\/user.route.js:21:8)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Wed May 17 2023 12:46:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":188895},"process":{"argv":["node","E:\\express\\fundoo-notes-using-postgres\\src\\index.js"],"cwd":"E:\\express\\fundoo-notes-using-postgres","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":184133,"external":12367863,"heapTotal":89812992,"heapUsed":60817272,"rss":122216448},"pid":9800,"uid":null,"version":"v16.18.0"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.put (E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/user.route.js:21:8)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","timestamp":"2023-05-17T07:16:19.780Z","trace":[{"column":15,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":211,"method":"<computed> [as put]","native":false},{"column":19,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":521,"method":"put","native":false},{"column":8,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/user.route.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:16:49.642Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:16:49.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:17:08.918Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:17:09.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:17:34.543Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:17:34.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:21:21.739Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:21:21.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:21:30.452Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:21:30.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:21:55.221Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:21:55.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:24:41.899Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:24:42.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:24:54.807Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:24:55.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:25:17.453Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:25:17.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:25:23.279Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:25:23.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:26:01.413Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:26:01.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:27:20.474Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:27:20.641Z"}
+info: login email {"timestamp":"2023-05-17T07:28:04.824Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotP 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:30:10.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:32:14.701Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:32:15.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:32:18.960Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:32:19.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:32:31.094Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:32:32.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:33:15.314Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:33:15.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:34:42.546Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:34:42.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:35:44.960Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:35:45.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:36:14.343Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:36:14.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:37:13.481Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:37:13.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:38:27.021Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:38:27.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:39:53.213Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:39:53.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:40:37.099Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:40:37.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:40:49.753Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:40:49.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:41:44.297Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:41:44.465Z"}
+info: login email {"timestamp":"2023-05-17T07:42:17.690Z"}
+info: login email {"timestamp":"2023-05-17T07:42:26.084Z"}
+error: 
+    status - 500 
+    message - Error: Password Is incorrect.....
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\services\/user.service.js:33:13)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:42:26.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:43:19.509Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:43:19.888Z"}
+info: login email {"timestamp":"2023-05-17T07:44:14.324Z"}
+info: login email {"timestamp":"2023-05-17T07:44:20.178Z"}
+error: 
+    status - 500 
+    message - Error: Password Is incorrect.....
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\services\/user.service.js:33:13)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T07:44:20.263Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:45:18.670Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:45:19.079Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:46:11.960Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:46:12.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:46:52.802Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:46:52.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:47:45.589Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:47:45.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:47:55.950Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T07:47:56.114Z"}

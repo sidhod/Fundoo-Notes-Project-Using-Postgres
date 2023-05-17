@@ -132,3 +132,118 @@ info: ::1 - - [17/May/2023:07:04:48 +0000] "POST /api/v1/users/logins HTTP/1.1" 
 
 info: ::1 - - [17/May/2023:07:06:18 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:07:15:21 +0000] "POST /api/v1/users/forgotP HTTP/1.1" 202 241 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:211:15)
+    at Function.put (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\routes\/user.route.js:21:8)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundoo-notes-using-postgres\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Wed May 17 2023 12:46:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":188895},"process":{"argv":["node","E:\\express\\fundoo-notes-using-postgres\\src\\index.js"],"cwd":"E:\\express\\fundoo-notes-using-postgres","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":207311,"external":12391081,"heapTotal":89812992,"heapUsed":60979528,"rss":123060224},"pid":9800,"uid":null,"version":"v16.18.0"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.put (E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/user.route.js:21:8)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundoo-notes-using-postgres\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","trace":[{"column":15,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":211,"method":"<computed> [as put]","native":false},{"column":19,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":521,"method":"put","native":false},{"column":8,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/user.route.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundoo-notes-using-postgres\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+info: ::1 - - [17/May/2023:07:25:45 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:14 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:32 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:51 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:27:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:28:05 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:00 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:16 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:25 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:30:15 +0000] "POST /api/v1/users/forgotP HTTP/1.1" 202 241 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:30:58 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:32:32 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:33:15 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:33:35 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:34:43 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:35:45 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:36:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:36:16 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:37:40 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:38:32 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:38 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:51 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 88 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:52 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 88 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:41:48 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:17 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:26 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:43:29 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:43:54 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:44:14 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:44:20 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:45:36 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:28 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:58 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+

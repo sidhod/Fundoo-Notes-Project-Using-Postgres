@@ -40,6 +40,29 @@ export const loginUser = async (body) => {
 
 };
 
+//forgot password
+export const forgotPassword = async (body) => {
+  let data = await User.findAll({ where: { email: body.email } });
+  if (data.length !== 0) {
+    let newtoken = jwt.sign({ email: data[0].email, firstName: data[0].firstName, id: data[0]._id }, process.env.SECRET_KEY);
+    return newtoken;
+  } else {
+    throw new Error('Email is not found.....');
+  }
+
+};
+
+//reset password
+export const resetPassword = async (body, email) => {
+  const saltRounds = 10;
+  const hashPassword = await bcrypt.hash(body.password, saltRounds);
+  body.password = hashPassword;
+  await User.update(body, {
+    where: { email: email }
+  }
+  );
+  return body;
+};
 
 
 

@@ -14,6 +14,12 @@ router.post('', newUserValidator, userController.newUser);
 //route to user login
 router.post('/logins', userController.loginUser);
 
+//route to forgotPassword
+router.post('/forgotP', userController.forgotPassword);
+
+//route to Reset password
+router.put('/resetpwd', userAuth, userController.resetPassword);
+
 
 
 

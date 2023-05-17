@@ -16,3 +16,81 @@ info: ::1 - - [17/May/2023:07:04:48 +0000] "POST /api/v1/users/logins HTTP/1.1" 
 
 info: ::1 - - [17/May/2023:07:06:18 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:07:15:21 +0000] "POST /api/v1/users/forgotP HTTP/1.1" 202 241 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:25:45 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:14 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:32 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:51 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:26:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:27:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:28:05 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:00 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:16 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:29:25 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:30:15 +0000] "POST /api/v1/users/forgotP HTTP/1.1" 202 241 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:30:58 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:32:32 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:33:15 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:33:35 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:34:43 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:35:45 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:36:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:36:16 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:37:40 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:38:32 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:38 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:51 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 88 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:40:52 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 88 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:41:48 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:17 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:42:26 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:43:29 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:43:54 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:44:14 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:44:20 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:45:36 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:28 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:07:46:58 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 168 "-" "PostmanRuntime/7.32.2"
+
