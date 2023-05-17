@@ -661,3 +661,51 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-05-17T10:35:02.210Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:16:41)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getNote (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:16:21)
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:51:41)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getNote (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:49:21)
+    at Layer.handle [as handle_request] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundoo-notes-using-postgres\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:45:51.668Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.select (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1824:21) 
+    url - /api/v1/notes/4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:46:18.915Z"}

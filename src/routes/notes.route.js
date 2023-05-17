@@ -10,6 +10,9 @@ router.post('', newNoteValidator, userAuth, notesController.addNote1);
 //route to get all a notes
 router.get('', userAuth, notesController.allNotes);
 
+//route to get a single note by their note id
+router.get('/:_id', userAuth, notesController.getNote);
+
 // //route to get all users
 // router.get('', userController.getAllUsers);
 
