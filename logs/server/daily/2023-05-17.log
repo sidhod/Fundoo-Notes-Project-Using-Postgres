@@ -228,3 +228,37 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T0
 info: Connected to the database. {"timestamp":"2023-05-17T07:47:45.772Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T07:47:55.950Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T07:47:56.114Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:21:00.096Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:21:36.028Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:23:34.902Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:47:43.971Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:56:31.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T08:57:13.697Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:57:13.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T08:57:21.061Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T08:57:21.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:02:03.677Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:02:04.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:02:47.702Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:02:48.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:08:01.216Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:08:05.886Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at notes.save (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:08:11.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:11:13.425Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:11:13.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:18:13.726Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:18:13.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:20:53.553Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:20:53.751Z"}
