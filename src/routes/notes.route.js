@@ -11,7 +11,13 @@ router.post('', newNoteValidator, userAuth, notesController.addNote1);
 router.get('', userAuth, notesController.allNotes);
 
 //route to get a single note by their note id
-router.get('/:_id', userAuth, notesController.getNote);
+router.get('/:id', userAuth, notesController.getNote);
+
+//route to update a single note by their note id
+router.put('/:id', newNoteValidator, userAuth, notesController.updateNote);
+
+//route to update a isArchived Field by their note id
+router.put('/:_id/archived', userAuth, notesController.updateisArchivedField);
 
 // //route to get all users
 // router.get('', userController.getAllUsers);

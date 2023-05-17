@@ -17,3 +17,17 @@ export const getNote = async (id, UserID) => {
     const data = await Note.findAll({ where: { id: id, UserID: UserID } });
     return data;
 };
+
+//update single Note
+export const updateNote = async (id, UserID, body) => {
+    const data = await Note.update(
+        body,
+        {
+            where: {
+                id: id,
+                UserID: UserID
+            }
+        }
+    );
+    return data;
+};

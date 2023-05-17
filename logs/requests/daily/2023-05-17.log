@@ -136,3 +136,9 @@ info: ::1 - - [17/May/2023:10:46:18 +0000] "GET /api/v1/notes/4 HTTP/1.1" 500 66
 
 info: ::1 - - [17/May/2023:10:46:47 +0000] "GET /api/v1/notes/4 HTTP/1.1" 200 267 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:11:00:09 +0000] "PUT /api/v1/notes/4 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:11:00:57 +0000] "PUT /api/v1/notes/4 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:11:01:22 +0000] "PUT /api/v1/notes/4 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
+

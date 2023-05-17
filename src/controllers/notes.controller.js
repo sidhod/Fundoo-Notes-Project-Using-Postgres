@@ -48,11 +48,48 @@ export const allNotes = async (req, res, next) => {
  */
 export const getNote = async (req, res, next) => {
     try {
-        const data = await NotesService.getNote(req.params._id, req.body.UserID);
+        const data = await NotesService.getNote(req.params.id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
             message: 'Note fetched successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+/**
+ * Controller to update note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateNote = async (req, res, next) => {
+    try {
+        const data = await NotesService.updateNote(req.params.id, req.body.UserID, req.body);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note updated successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to update isArchived Field a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateisArchivedField = async (req, res, next) => {
+    try {
+        const data = await NotesService.updateisArchivedField(req.params._id, req.body.UserID);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'isArchived update successfully'
         });
     } catch (error) {
         next(error);
