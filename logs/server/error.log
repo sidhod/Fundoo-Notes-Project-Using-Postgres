@@ -763,3 +763,72 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2023-05-17T11:01:18.217Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee5$ (E:\express\fundoo-notes-using-postgres\build\services\notes.service.js:133:11)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundoo-notes-using-postgres\build\services\notes.service.js:167:18) 
+    url - /api/v1/notes/4/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T11:24:53.385Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at PostgresQueryGenerator.getWhereConditions (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at PostgresQueryGenerator.selectQuery (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at PostgresQueryInterface.select (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/4/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:37:47.688Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.select (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1824:21) 
+    url - /api/v1/notes/4/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:38:36.383Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.select (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1824:21) 
+    url - /api/v1/notes/4/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:39:39.173Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.select (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1824:21) 
+    url - /api/v1/notes/4/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T12:42:38.759Z"}

@@ -571,3 +571,21 @@ info: ::1 - - [17/May/2023:11:00:57 +0000] "PUT /api/v1/notes/4 HTTP/1.1" 202 61
 
 info: ::1 - - [17/May/2023:11:01:22 +0000] "PUT /api/v1/notes/4 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:11:24:53 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 500 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:37:47 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 500 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:38:36 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 500 69 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:39:39 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 500 69 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:42:38 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 500 69 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:43:22 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 200 66 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:47:21 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 200 66 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:47:36 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 200 66 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:12:48:33 +0000] "PUT /api/v1/notes/4/archived HTTP/1.1" 200 66 "-" "PostmanRuntime/7.32.2"
+

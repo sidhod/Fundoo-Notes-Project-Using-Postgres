@@ -85,7 +85,7 @@ export const updateNote = async (req, res, next) => {
  */
 export const updateisArchivedField = async (req, res, next) => {
     try {
-        const data = await NotesService.updateisArchivedField(req.params._id, req.body.UserID);
+        const data = await NotesService.updateisArchivedField(req.params.id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
