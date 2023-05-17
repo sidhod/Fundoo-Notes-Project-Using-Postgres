@@ -262,3 +262,101 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T0
 info: Connected to the database. {"timestamp":"2023-05-17T09:18:13.907Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:20:53.553Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T09:20:53.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:46:52.778Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:46:54.044Z"}
+info: login email {"timestamp":"2023-05-17T09:47:04.594Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\services\/user.service.js:37:11)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:47:04.826Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 81
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:48:42.100Z"}
+info: login email {"timestamp":"2023-05-17T09:48:48.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T09:53:46.905Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T09:53:47.230Z"}
+info: login email {"timestamp":"2023-05-17T09:53:53.244Z"}
+info: login email {"timestamp":"2023-05-17T09:54:20.744Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:55:34.988Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:55:45.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T10:33:59.833Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:34:00.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T10:34:15.283Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:34:15.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T10:34:47.100Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:34:47.427Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.find is not a function
+    at _callee2$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:11:29)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.allNotes (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:10:22)
+    at _callee2$ (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:32:41)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at allNotes (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:30:22)
+    at Layer.handle [as handle_request] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundoo-notes-using-postgres\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:35:02.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T10:35:37.800Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T10:35:38.023Z"}

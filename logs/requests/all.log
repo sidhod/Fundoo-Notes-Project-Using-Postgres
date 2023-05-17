@@ -531,3 +531,31 @@ Error:
     at Sequelize.sync (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:825:9) {"date":"Wed May 17 2023 14:48:14 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42601","file":"scan.l","length":95,"line":"1192","name":"error","position":"162","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42601","file":"scan.l","length":95,"line":"1192","name":"error","position":"162","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":196210},"process":{"argv":["node","E:\\express\\fundoo-notes-using-postgres\\src\\index.js"],"cwd":"E:\\express\\fundoo-notes-using-postgres","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":692234,"external":13992062,"heapTotal":90820608,"heapUsed":48932552,"rss":124387328},"pid":19308,"uid":null,"version":"v16.18.0"},"stack":"Error: \n    at Query.run (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js:76:25)\n    at E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at PostgresQueryInterface.createTable (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:229:12)\n    at Function.sync (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\model.js:1353:7)\n    at Sequelize.sync (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js:825:9)","trace":[{"column":25,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js","function":"Query.run","line":76,"method":"run","native":false},{"column":28,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js","function":null,"line":650,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js","function":"PostgresQueryInterface.createTable","line":229,"method":"createTable","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\model.js","function":"Function.sync","line":1353,"method":"sync","native":false},{"column":9,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js","function":"Sequelize.sync","line":825,"method":"sync","native":false}]}
 info: ::1 - - [17/May/2023:09:21:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:09:47:04 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:47:46 +0000] "POST /api/v1/users HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:48:49 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 245 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:53:53 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:54:26 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:55:34 +0000] "POST /api/v1/notes HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:55:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:56:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 265 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:34:23 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:35:02 +0000] "GET /api/v1/notes HTTP/1.1" 500 62 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:35:40 +0000] "GET /api/v1/notes HTTP/1.1" 200 272 "-" "PostmanRuntime/7.32.2"
+

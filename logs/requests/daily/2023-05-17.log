@@ -102,3 +102,31 @@ info: ::1 - - [17/May/2023:09:08:11 +0000] "POST /api/v1/notes HTTP/1.1" 500 73 
 
 info: ::1 - - [17/May/2023:09:21:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [17/May/2023:09:47:04 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:47:46 +0000] "POST /api/v1/users HTTP/1.1" 201 297 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:48:49 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:51:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 245 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:53:53 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:54:26 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 242 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:55:34 +0000] "POST /api/v1/notes HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:55:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:09:56:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 265 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:34:23 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:35:02 +0000] "GET /api/v1/notes HTTP/1.1" 500 62 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/May/2023:10:35:40 +0000] "GET /api/v1/notes HTTP/1.1" 200 272 "-" "PostmanRuntime/7.32.2"
+

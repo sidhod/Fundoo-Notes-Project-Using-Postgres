@@ -579,3 +579,85 @@ Error:
     at PostgresQueryInterface.createTable (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
     at Function.sync (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:1353:7)
     at Sequelize.sync (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:825:9) {"date":"Wed May 17 2023 14:48:13 GMT+0530 (India Standard Time)","error":{"name":"SequelizeDatabaseError","original":{"code":"42601","file":"scan.l","length":95,"line":"1192","name":"error","position":"162","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"parameters":{},"parent":{"code":"42601","file":"scan.l","length":95,"line":"1192","name":"error","position":"162","routine":"scanner_yyerror","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"sql":"CREATE TABLE IF NOT EXISTS \"notes\" (\"id\"   SERIAL , \"Title\" VARCHAR(255), \"Descreption\" VARCHAR(255), \"Color\" VARCHAR(255), \"isArchived\" BOOLEAN, \"defaultValue\" false, \"isDeleted\" BOOLEAN, \"UserID\" VARCHAR(255), \"createdAt\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updatedAt\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":196210},"process":{"argv":["node","E:\\express\\fundoo-notes-using-postgres\\src\\index.js"],"cwd":"E:\\express\\fundoo-notes-using-postgres","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":683298,"external":13983086,"heapTotal":90820608,"heapUsed":48859592,"rss":124235776},"pid":19308,"uid":null,"version":"v16.18.0"},"stack":"Error: \n    at Query.run (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js:76:25)\n    at E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at PostgresQueryInterface.createTable (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:229:12)\n    at Function.sync (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\model.js:1353:7)\n    at Sequelize.sync (E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2023-05-17T09:18:14.041Z","trace":[{"column":25,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js","function":"Query.run","line":76,"method":"run","native":false},{"column":28,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js","function":null,"line":650,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js","function":"PostgresQueryInterface.createTable","line":229,"method":"createTable","native":false},{"column":7,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\model.js","function":"Function.sync","line":1353,"method":"sync","native":false},{"column":9,"file":"E:\\express\\fundoo-notes-using-postgres\\node_modules\\sequelize\\src\\sequelize.js","function":"Sequelize.sync","line":825,"method":"sync","native":false}]}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundoo-notes-using-postgres\src\services\/user.service.js:37:11)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:47:04.826Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 81
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundoo-notes-using-postgres\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundoo-notes-using-postgres\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:48:42.100Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:55:34.988Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Description" is not allowed 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T09:55:45.851Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.find is not a function
+    at _callee2$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:11:29)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.allNotes (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:10:22)
+    at _callee2$ (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:32:41)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at allNotes (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:30:22)
+    at Layer.handle [as handle_request] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundoo-notes-using-postgres\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-17T10:35:02.210Z"}

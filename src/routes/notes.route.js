@@ -7,6 +7,9 @@ const router = express.Router();
 //route to create a new note
 router.post('', newNoteValidator, userAuth, notesController.addNote1);
 
+//route to get all a notes
+router.get('', userAuth, notesController.allNotes);
+
 // //route to get all users
 // router.get('', userController.getAllUsers);
 
