@@ -1,2 +1,35 @@
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T06:10:26.925Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T06:10:27.188Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:32:09.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T06:34:14.330Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:34:14.855Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at user.save (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T06:34:32.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T06:34:58.581Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:34:58.760Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at user.save (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-17T06:35:20.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T06:38:45.740Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T06:38:46.307Z"}

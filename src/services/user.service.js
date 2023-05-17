@@ -1,5 +1,6 @@
 import sequelize, { DataTypes } from '../config/database';
 const User = require('../models/user')(sequelize, DataTypes);
+const bcrypt = require('bcrypt');
 
 //get all users
 export const getAllUsers = async () => {
@@ -9,6 +10,9 @@ export const getAllUsers = async () => {
 
 //create new user
 export const newUser = async (body) => {
+  const saltRounds = 10;
+  const hash = bcrypt.hashSync(body.password, saltRounds);
+  body.password = hash;
   const data = await User.create(body);
   return data;
 };
