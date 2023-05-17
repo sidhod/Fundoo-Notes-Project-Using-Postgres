@@ -31,3 +31,30 @@ export const updateNote = async (id, UserID, body) => {
     );
     return data;
 };
+
+//update isArchived Note
+export const updateisArchivedField = async (id, UserID) => {
+    let note = await User.findAll({ where: { id: id, UserId: UserID } });
+    let update;
+    if (note.isArchived === true) {
+        update = {
+            isArchived: false
+        }
+    } else {
+        update = {
+            isArchived: true
+        }
+
+    }
+    const data = await Note.update(
+
+        update,
+        {
+            where: {
+                id: id,
+                UserID: UserID
+            }
+        }
+    );
+    return data;
+};

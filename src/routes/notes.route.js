@@ -17,7 +17,7 @@ router.get('/:id', userAuth, notesController.getNote);
 router.put('/:id', newNoteValidator, userAuth, notesController.updateNote);
 
 //route to update a isArchived Field by their note id
-router.put('/:_id/archived', userAuth, notesController.updateisArchivedField);
+router.put('/:id/archived', userAuth, notesController.updateisArchivedField);
 
 // //route to get all users
 // router.get('', userController.getAllUsers);
