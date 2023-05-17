@@ -569,3 +569,83 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T1
 info: Connected to the database. {"timestamp":"2023-05-17T12:48:33.907Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T12:49:13.842Z"}
 info: Connected to the database. {"timestamp":"2023-05-17T12:49:14.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T12:59:40.550Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T12:59:40.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T13:00:41.929Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T13:00:42.129Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee6$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:63:54)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisDeletedField (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:63:34)
+    at _callee6$ (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:107:41)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateisDeletedField (E:\express\fundoo-notes-using-postgres\src\controllers\/notes.controller.js:105:34)
+    at Layer.handle [as handle_request] (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundoo-notes-using-postgres\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundoo-notes-using-postgres\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/4/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T13:01:02.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T13:01:15.631Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T13:01:16.405Z"}
+error: 
+    status - 500 
+    message - AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:3568:5)
+    at Function.update (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:3202:10)
+    at _callee6$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:81:29)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/4/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T13:01:16.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T13:02:13.259Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T13:02:13.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T13:02:29.812Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T13:02:30.268Z"}
+error: 
+    status - 500 
+    message - AssertionError [ERR_ASSERTION]: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:3568:5)
+    at Function.update (E:\express\fundoo-notes-using-postgres\node_modules\sequelize\src\model.js:3202:10)
+    at _callee6$ (E:\express\fundoo-notes-using-postgres\src\services\/notes.service.js:81:29)
+    at tryCatch (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundoo-notes-using-postgres\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/4/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-17T13:02:32.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-17T13:03:05.690Z"}
+info: Connected to the database. {"timestamp":"2023-05-17T13:03:05.845Z"}

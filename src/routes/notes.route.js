@@ -19,20 +19,7 @@ router.put('/:id', newNoteValidator, userAuth, notesController.updateNote);
 //route to update a isArchived Field by their note id
 router.put('/:id/archived', userAuth, notesController.updateisArchivedField);
 
-// //route to get all users
-// router.get('', userController.getAllUsers);
-
-// //route to create a new user
-// router.post('', newUserValidator, userController.newUser);
-
-// //route to user login
-// router.post('/logins', userController.loginUser);
-
-// //route to forgotPassword
-// router.post('/forgotP', userController.forgotPassword);
-
-// //route to Reset password
-// router.put('/resetpwd', userAuth, userController.resetPassword);
-
+//route to update a isDelete Field by their note id
+router.put('/:id/trash', userAuth, notesController.updateisDeletedField);
 
 export default router;

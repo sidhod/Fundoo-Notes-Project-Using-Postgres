@@ -35,7 +35,6 @@ export const updateNote = async (id, UserID, body) => {
 //update isArchived Note
 export const updateisArchivedField = async (id, UserID) => {
     let note = await Note.findAll({ where: { id: id, UserID: UserID } });
-    console.log(note)
     let update;
     if (note[0].isArchived === true) {
         update = {
@@ -56,6 +55,37 @@ export const updateisArchivedField = async (id, UserID) => {
                 UserID: UserID
             }
         }
+    );
+    return data;
+};
+
+//update isDelete Field
+export const updateisDeletedField = async (id, UserID) => {
+    let note = await Note.findAll({
+        where: {
+            id: id,
+            UserID: UserID
+        }
+    });
+    let update;
+    if (note[0].isDeleted === true) {
+        update = {
+            isDeleted: false
+        }
+    } else {
+        update = {
+            isDeleted: true
+        }
+
+    }
+    const data = await Note.update(
+        update, {
+        where: {
+            id: id,
+            UserID: UserID
+        }
+    }
+
     );
     return data;
 };
